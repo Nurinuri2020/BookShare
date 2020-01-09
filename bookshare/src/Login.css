@@ -1,0 +1,65 @@
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #f80;
+    border-bottom: 16px solid #f80;
+    margin: 100px auto;
+    margin-left: 710px;
+    margin-bottom: 300px;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .confirm{
+      
+      transition: 5000ms;
+      border: 2px solid #f80;
+      width: 25%;
+      margin-left: 570px;
+      margin-top: 20px;
+      transition: all 0.35s ease-out;
+  }
+
+  .yesConfirm{
+      border:2px solid black;
+      background-color: #88ff4d;
+      margin-right: 3px;
+      cursor: pointer;
+      margin-bottom: 5px;
+      border-radius: 20%;
+  }
+
+  .noConfirm{
+    border:2px solid black;
+    background-color: #ff4d4d;
+    margin-left: 2px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 20%;
+}
+
+.yesConfirm:hover{
+    background-color:#ccffb3;
+    transition: top 1s ease-out 0.5s;
+    color: #ccc;
+}
+
+.noConfirm:hover{
+    background-color:#ff9980;
+    transition: top 1s ease-out 0.5s;
+    color: #ccc;
+}
